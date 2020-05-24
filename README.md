@@ -128,7 +128,7 @@ website on the S3 bucket for the chatbot web UI.
 
   - > Launch cloud formation stack using the below link.
 
-> (https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=lex-web-ui&templateURL=https://s3.amazonaws.com/aws-bigdata-blog/artifacts/aws-lex-web-ui/artifacts/templates/master.yaml )
+[Cloud Formation Script](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=lex-web-ui&templateURL=https://s3.amazonaws.com/aws-bigdata-blog/artifacts/aws-lex-web-ui/artifacts/templates/master.yaml)
 
   - > In **Lex Bot Configuration Parameter** enter the bot name create
     > in Amazon Lex.
