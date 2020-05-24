@@ -1,7 +1,6 @@
 Introduction
 ============
 
-
 Amazon Lex is a service for building conversational voice and text
 chatbot into any application. The project aims to design a chatbot using
 Amazon Lex, lambda function, and a web UI hosted in S3. Further, the
