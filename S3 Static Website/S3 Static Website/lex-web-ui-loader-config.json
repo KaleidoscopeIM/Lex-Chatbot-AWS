@@ -1,0 +1,46 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:909fc1af-93fb-45e4-ac52-0dcbfe0ba352",
+    "appUserPoolClientId": "63u20ai3k1fvqm3mc9h4bo3dbl",
+    "appUserPoolName": "us-east-1_g749QdeV5",
+    "appDomainName": "lexkwebkuikidentitypoolconfigkudiscdigqnha013005213249.auth.us-east-1.amazoncognito.com",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "Bookings",
+    "botAlias": "$LATEST",
+    "initialText": "You can ask me for help in booking movie tickets. Just type \"Book Movie Tickets\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Book Movie Tickets' to get started.",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1"
+  },
+  "ui": {
+    "parentOrigin": "https://lex-web-ui-codebuilddeploy-3vuv8sbyy-webappbucket-16q40csso1dpu.s3.us-east-1.amazonaws.com",
+    "toolbarTitle": "Movie Tickets Booking",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": true,
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://lex-web-ui-codebuilddeploy-3vuv8sbyy-webappbucket-16q40csso1dpu.s3.us-east-1.amazonaws.com",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
